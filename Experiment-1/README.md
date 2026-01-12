@@ -1,16 +1,33 @@
-# React + Vite
+# 📘 Experiment Learnings – React + Vite SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Learnings
+- **Vite** provides a fast development environment with Hot Module Replacement (HMR).
+- React enables building reusable UI components.
+- The application follows a **Single Page Application (SPA)** architecture.
 
-Currently, two official plugins are available:
+## React Router
+- Used for client-side routing without page reloads.
+- `<Routes>` and `<Route>` map URLs to components.
+- `<Link>` enables smooth navigation.
+- Parent routes use `/*` to support nested routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## State Management (Counter)
+- `useState` hook manages component state.
+- UI updates automatically when state changes.
 
-## React Compiler
+```jsx
+const [count, setCount] = useState(0);
+setCount(count + 1);
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 💻 Commands Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm create vite@latest` – Create a React + Vite project  
+- `npm install` – Install required dependencies  
+- `npm run dev` – Start the development server  
+- `npm run build` – Generate production build (`dist/`)  
+- `npm run preview` – Preview the production build  
+- `git init` – Initialize Git repository  
+- `git add .` – Stage files for commit  
+- `git commit -m "message"` – Commit changes  
+- `git push` – Push code to GitHub  
