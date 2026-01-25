@@ -1,16 +1,69 @@
-# React + Vite
+# 📌 FSD-II Experiment: React Router + Material UI Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Aim
+To develop a multi-page React application using **React Router DOM** for navigation and **Material UI (MUI)** for creating reusable UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧪 Experiment Details
+Use the following components from the **react-router-dom** package:
 
-## React Compiler
+- `BrowserRouter`
+- `Routes`
+- `Route`
+- `Link`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- **React JS**
+- **Material UI (MUI)**
+- **React Router DOM**
+- **Git**
+- **GitHub**
+- **Node.js**
+- **npm**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Description
+This React project contains:
+
+### ✅ Pages
+- **Home Page**
+- **About Page**
+- **Contact Page**
+
+### ✅ UI Design Components (Material UI)
+- Button
+- TextField
+- Select
+- Rating
+- Checkbox
+
+### ✅ Routing
+Routing is implemented using:
+- `BrowserRouter`
+- `Routes`
+- `Route`
+- `Link`
+
+---
+
+## 📁 Folder Structure
+```text
+src/
+│── components/
+│   ├── CustomButton.jsx
+│   ├── CustomTextField.jsx
+│   ├── CustomSelect.jsx
+│   ├── CustomRating.jsx
+│   └── CustomCheckbox.jsx
+│
+│── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   └── Contact.jsx
+│
+│── App.jsx
+│── main.jsx
